@@ -20,12 +20,21 @@ body{
     background-color: rgb(236, 209, 249);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .bar{
     display: flex;
     justify-content: space-between;
     margin-top: 3mm;
     margin-left: 3mm;
     margin-right: 5mm;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1;
 }
 
 .logo{
@@ -44,9 +53,6 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
 .menu{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
     display: flex;
     justify-content: space-between;
     margin-right: 2mm;
@@ -65,7 +71,7 @@ a:active { text-decoration: none; }
 }
 
 a:hover{
-    color:rgb(140, 30, 183)
+    color:rgb(140, 30, 183);
 }
 .about{
     color: black;
@@ -79,11 +85,16 @@ a:hover{
     margin-left: 3cm;
     margin-right: 3cm;
     margin-top: 1cm;
+    font-family: cursive;
+    font-weight: bold;
 }
 
 .projectIntro{
     margin-top: 2cm;
     margin-left: 22mm;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5mm;
 }
 .projects{
     
@@ -114,8 +125,60 @@ a:hover{
 
 .projectTitle{
     font-weight: bold;
+    color: black;
 }
 
 .projectType{
     font-style: italic;
+    color: black;
+}
+
+.fullBodyPage{
+    display: flex;
+    margin-top: 30mm;
+    margin-left: 30mm;
+    margin-right: 30mm;
+}
+
+.info{
+    width: 60%;
+    margin-right: 10mm;
+    padding-right: 10mm;
+}
+
+.aboutTitle{
+    font-size: 100px;
+}
+
+.aboutme{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.bottomSection{
+    margin-top: 20mm;
+    margin-left: 30mm;
+    margin-right: 30mm;
+}
+
+.smallTitle{
+    font-weight: bold;
+}
+
+.contactMe{
+    color: black;
+    margin-top: 3mm;
+    display: flex;
+
+}
+
+.contact{
+    color: black;
+    margin-right: 10mm;
+    margin-bottom: 10mm;
+}
+
+.contact:hover{
+    color:rgb(140, 30, 183);
 }

@@ -1,0 +1,160 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+  }
+  
+  * { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--onyx);
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  
+  }
+  
+  body{
+  /* CSS HEX */
+  --cultured: #f8f9faff;
+  --cultured-2: #e9ecefff;
+  --gainsboro: #dee2e6ff;
+  --light-gray: #ced4daff;
+  --cadet-blue-crayola: #adb5bdff;
+  --sonic-silver: #6c757dff;
+  --davys-grey: #495057ff;
+  --onyx: #343a40ff;
+  --eerie-black: #212529ff;
+  
+  background-color: rgb(236, 209, 249);
+    color: var(--onyx);
+  }
+
+  .bar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3mm;
+    margin-left: 3mm;
+    margin-right: 5mm;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo{
+    max-width: 2cm;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2mm;
+}
+
+.mainpage{
+    margin-right: 5mm;
+    margin-top: 4mm;
+}
+.aboutpage{
+    margin-top: 4mm;
+}
+
+.main{
+    color: black;
+}
+
+a:hover{
+    color:rgb(140, 30, 183);
+}
+.about{
+    color: black;
+}
+  
+  h1, h2, h3, h4{
+  color: var(--smoky-black)
+  ;}
+  
+  h1{
+  font-family: Garamond, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: 10;
+  }
+
+  h3{
+    margin-top: 3%;
+  }
+  
+  .page{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  
+  .intro{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+  
+  
+  .issues{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .issue{
+    background-color: var(--light-gray);
+    outline: auto;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 1%;
+    min-width: 10mm;
+    max-width: 70mm;
+    margin-bottom: 2%;
+  }
+
+  .lofis{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .lofi{
+    width: 700px;
+    margin-top: 2%;
+    background-color: var(--light-gray);
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+  }
+  
+  .style_guide{
+    margin-left: 20%;
+    margin-top: 2%;
+    
+  }
+  
+  .ex_site{
+    
+    margin-bottom: 5%;
+  }
