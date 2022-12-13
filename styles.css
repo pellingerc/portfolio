@@ -100,19 +100,13 @@ a:hover{
     background-size: 200% auto;
     color: #fff;
     background-clip: text;
-    text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 10s linear infinite;
     display: inline-block;
-      
 }
 
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-}
+
 
 .projectIntro{
     margin-top: 2cm;
